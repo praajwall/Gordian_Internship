@@ -1,15 +1,23 @@
+.container {
+  padding-top: 5%;
+}
+.title {
+  text-align: center;
+}
+.form {
+  padding: 5%;
+}
 input[type="text"] {
   width: 100%;
   border: 2px solid #aaa;
   border-radius: 4px;
   margin: 8px 0;
-  outline: none;
   padding: 8px;
   box-sizing: border-box;
   padding-left: 6%;
 }
 
-.inputWithLabel input[type="text"] {
+.inputWithLabel input[class="name"] {
   padding-left: 7%;
 }
 
@@ -58,7 +66,6 @@ input[type="text"] {
   border: 2px solid #aaa;
   border-radius: 4px;
   margin: 8px 0;
-  outline: none;
   padding: 8px;
   box-sizing: border-box;
 }
